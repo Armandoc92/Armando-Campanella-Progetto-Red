@@ -1,0 +1,127 @@
+.logo{
+    height: 100px;
+    width: 200px;
+}
+.link{
+    display: flex;
+    justify-content: center;
+    
+}
+header{
+    
+   background-image: url(./media/mountains.png), linear-gradient(white, rgba(255, 255, 255, 0)), url(./media/switzerland-862870_1920.jpg);
+   background-size: cover;
+   background-position: center;
+}
+h1{
+    letter-spacing: 10px;
+    color: darkred;
+    font-family: 'Nova Square', sans-serif;;
+}
+main{
+    background-color: #ececec;
+}
+.linea{
+    border-bottom: 2px solid darkred;
+    position: relative;
+}
+.bi{
+    color: darkred;
+}
+.img-alberi{
+    background-image: url(/media/trees2.png);
+    background-repeat:no-repeat ;
+    background-position: bottom;
+    background-size: 100%;
+    height: 80vh;
+}
+button{
+    background-color: darkred;
+    color: white;
+}
+section{
+    background-color: white;
+    background-image: url(/media/single.png);
+    background-repeat:no-repeat ;
+    background-position: right bottom;
+    background-size: 35%;
+}
+h3{
+   color: darkred;
+}
+.schema{
+    border-left: 2px solid darkred;
+    margin-left: 30px;
+  
+}
+.pallino{
+    position: relative;
+}
+.time{
+    margin-left: 30px;
+}
+h2,h3,h5{
+    color: darkred;
+}
+.imgcustom{
+    border-radius: 50%;
+    height: 150px;
+    width: 150px;
+    border: 2px solid darkred;
+    padding: 5px;
+}
+.immagine{
+    border-radius: 50%;
+    height: 200px;
+    width: 200px;
+    border: 2px solid darkred;
+    padding: 5px;
+    margin-left: 30%;
+}
+.rossi{
+    background-image: url(./media/other.png);
+    background-position: bottom ;
+    background-size: contain;
+    background-repeat: no-repeat;
+    height: 150vh;
+}
+
+footer{
+    background-color: darkred;
+}
+.bianco{
+    color: white;
+}
+
+
+
+
+
+
+
+
+
+
+.linea::after{
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border:1px solid darkred;
+    position: absolute;
+    bottom: -10px;
+   left: 45%;
+}
+.pallino::after{
+    content: "";
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: white;
+    border:1px solid darkred;
+    position: absolute;
+   left: -41px;
+   top: 8px;
+   
+}
